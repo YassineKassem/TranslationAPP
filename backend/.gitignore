@@ -1,0 +1,65 @@
+# Python files and cache
+*.py[cod]
+__pycache__/
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Editor files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+.env.docker
+
+# Python environment variables
+.env
+*.env
+*.env.*
+
+# Pytest
+.pytest_cache/
+.cache/
+*.pytest_cache
+
+# FastAPI-specific files (optional)
+*.sqlite3  # If using SQLite
+*__pycache__/
+migrations/
+
+# Dependencies
+Pipfile
+Pipfile.lock
+poetry.lock
+poetry.toml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+htmlcov/
+.coverage
+
+# Coverage reports
+.coverage
+*.coverage
+
+# Optional - local development specific
+test_output/
+temp/
+uploads/
